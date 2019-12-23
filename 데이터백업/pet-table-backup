@@ -1,0 +1,90 @@
+--------------------------------------------------------
+--  파일이 생성됨 - 월요일-12월-23-2019   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table TBL_REVIEW
+--------------------------------------------------------
+
+  CREATE TABLE "TBL_REVIEW" 
+   (	"RE_SEQ" NUMBER, 
+	"RE_AUTH" NVARCHAR2(20), 
+	"RE_DATE" VARCHAR2(10 BYTE), 
+	"RE_SUBJECT" NVARCHAR2(125), 
+	"RE_TEXT" NVARCHAR2(1000)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table TBL_SERVICE
+--------------------------------------------------------
+
+  CREATE TABLE "TBL_SERVICE" 
+   (	"SE_SEQ" NUMBER, 
+	"SE_AUTH" NVARCHAR2(20), 
+	"SE_DATE" VARCHAR2(10 BYTE), 
+	"SE_SUBJECT" NVARCHAR2(125), 
+	"SE_TEXT" NVARCHAR2(1000)
+   ) ;
+REM INSERTING into TBL_REVIEW
+SET DEFINE OFF;
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (37,'성춘향','2019-12-23','일곡동 동물병원 후기 입니다.','일곡동 동물병원 후기 입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (38,'홍길동','2019-12-21','광주 동물병원 후기','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (39,'홍길동','2019-12-21','광주 동물병원 후기','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (40,'홍길동','2019-12-21','광주 동물병원 후기다','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (41,'홍길동','2019-12-21','광주 동물병원 후기','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (42,'홍길동','2019-12-21','광주 동물병원 후기','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (43,'홍길동','2019-12-21','광주 동물병원 후기','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (44,'홍길동','2019-12-21','광주 동물병원 후기','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (45,'홍길동','2019-12-21','광주 동물병원 후기다','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (46,'홍길동','2019-12-21','광주 동물병원 후기','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (47,'홍길동','2019-12-21','광주 동물병원 후기','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (48,'홍길동','2019-12-21','광주 동물병원 후기','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (50,'홍길동','2019-12-21','광주 동물병원 후기','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (51,'홍길동','2019-12-21','광주 동물병원 후기','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (53,'홍길동','2019-12-21','광주 동물병원 후기','광주 동물병원 후기입니다.');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (55,'성춘향','2019-12-23','후기후기','동물병원 후기');
+Insert into TBL_REVIEW (RE_SEQ,RE_AUTH,RE_DATE,RE_SUBJECT,RE_TEXT) values (56,'성춘향','2019-12-23','동물병원 후기 후기','후기');
+REM INSERTING into TBL_SERVICE
+SET DEFINE OFF;
+Insert into TBL_SERVICE (SE_SEQ,SE_AUTH,SE_DATE,SE_SUBJECT,SE_TEXT) values (1,'장영실','2019-12-22','상태보고서 사용법 문의','상태보고서 사용법 문의입니다.');
+Insert into TBL_SERVICE (SE_SEQ,SE_AUTH,SE_DATE,SE_SUBJECT,SE_TEXT) values (2,'장영실','2019-12-22','상태보고서 사용법 문의','상태보고서 사용법 문의입니다.');
+Insert into TBL_SERVICE (SE_SEQ,SE_AUTH,SE_DATE,SE_SUBJECT,SE_TEXT) values (3,'장영실','2019-12-22','상태보고서 사용법 문의','상태보고서 사용법 문의입니다.');
+Insert into TBL_SERVICE (SE_SEQ,SE_AUTH,SE_DATE,SE_SUBJECT,SE_TEXT) values (4,'장영실','2019-12-22','상태보고서 사용법 문의','상태보고서 사용법 문의입니다.');
+Insert into TBL_SERVICE (SE_SEQ,SE_AUTH,SE_DATE,SE_SUBJECT,SE_TEXT) values (5,'장영실','2019-12-22','상태보고서 사용법 문의','상태보고서 사용법 문의입니다.');
+Insert into TBL_SERVICE (SE_SEQ,SE_AUTH,SE_DATE,SE_SUBJECT,SE_TEXT) values (6,'장영실','2019-12-22','상태보고서 사용법 문의','상태보고서 사용법 문의입니다.');
+Insert into TBL_SERVICE (SE_SEQ,SE_AUTH,SE_DATE,SE_SUBJECT,SE_TEXT) values (7,'장영실','2019-12-22','상태보고서 사용법 문의','상태보고서 사용법 문의입니다.');
+Insert into TBL_SERVICE (SE_SEQ,SE_AUTH,SE_DATE,SE_SUBJECT,SE_TEXT) values (8,'장영실','2019-12-22','상태보고서 사용법 문의','상태보고서 사용법 문의입니다.');
+Insert into TBL_SERVICE (SE_SEQ,SE_AUTH,SE_DATE,SE_SUBJECT,SE_TEXT) values (9,'장영실','2019-12-22','상태보고서 사용법 문의','상태보고서 사용법 문의입니다.');
+Insert into TBL_SERVICE (SE_SEQ,SE_AUTH,SE_DATE,SE_SUBJECT,SE_TEXT) values (10,'장영실','2019-12-22','상태보고서 사용법 문의','상태보고서 사용법 문의입니다.');
+Insert into TBL_SERVICE (SE_SEQ,SE_AUTH,SE_DATE,SE_SUBJECT,SE_TEXT) values (11,'장영실','2019-12-22','상태보고서 사용법 문의','상태보고서 사용법 문의입니다.');
+Insert into TBL_SERVICE (SE_SEQ,SE_AUTH,SE_DATE,SE_SUBJECT,SE_TEXT) values (12,'장영실','2019-12-22','상태보고서 사용법 문의','상태보고서 사용법 문의입니다.');
+--------------------------------------------------------
+--  DDL for Index SYS_C007122
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SYS_C007122" ON "TBL_REVIEW" ("RE_SEQ") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007130
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SYS_C007130" ON "TBL_SERVICE" ("SE_SEQ") 
+  ;
+--------------------------------------------------------
+--  Constraints for Table TBL_REVIEW
+--------------------------------------------------------
+
+  ALTER TABLE "TBL_REVIEW" ADD PRIMARY KEY ("RE_SEQ") ENABLE;
+  ALTER TABLE "TBL_REVIEW" MODIFY ("RE_TEXT" NOT NULL ENABLE);
+  ALTER TABLE "TBL_REVIEW" MODIFY ("RE_SUBJECT" NOT NULL ENABLE);
+  ALTER TABLE "TBL_REVIEW" MODIFY ("RE_DATE" NOT NULL ENABLE);
+  ALTER TABLE "TBL_REVIEW" MODIFY ("RE_AUTH" NOT NULL ENABLE);
+  ALTER TABLE "TBL_REVIEW" MODIFY ("RE_SEQ" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table TBL_SERVICE
+--------------------------------------------------------
+
+  ALTER TABLE "TBL_SERVICE" ADD PRIMARY KEY ("SE_SEQ") ENABLE;
+  ALTER TABLE "TBL_SERVICE" MODIFY ("SE_TEXT" NOT NULL ENABLE);
+  ALTER TABLE "TBL_SERVICE" MODIFY ("SE_SUBJECT" NOT NULL ENABLE);
+  ALTER TABLE "TBL_SERVICE" MODIFY ("SE_DATE" NOT NULL ENABLE);
+  ALTER TABLE "TBL_SERVICE" MODIFY ("SE_AUTH" NOT NULL ENABLE);
+  ALTER TABLE "TBL_SERVICE" MODIFY ("SE_SEQ" NOT NULL ENABLE);
